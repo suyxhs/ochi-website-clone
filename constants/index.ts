@@ -4,27 +4,27 @@ import { capaybilities1, capaybilities2, capaybilities3, capaybilities4, client0
 export const navbarItems = [
    {
       id: 1,
-      title: "Services",
+      title: "Вакансии",
       href: "/services",
    },
    {
       id: 2,
-      title: "Our work",
+      title: "Проекты",
       href: "/presentation",
    },
    {
       id: 3,
-      title: "About us",
+      title: "О нас",
       href: "/ochi-team",
    },
    {
       id: 4,
-      title: "Insights",
+      title: "Инсайды",
       href: "/insights",
    },
    {
       id: 5,
-      title: "Contact us",
+      title: "Обратная связь",
       href: "/contact",
    },
 ];
@@ -35,54 +35,44 @@ export const footerItems = [
    {
       id: 1,
       title: "Instagram",
-      href: "https://www.instagram.com/",
+      href: "/",
    },
    {
       id: 2,
-      title: "Behance",
-      href: "https://www.behance.com/",
-   },
-   {
-      id: 3,
-      title: "Facebook",
-      href: "https://www.facebook.com/",
-   },
-   {
-      id: 4,
-      title: "Linkedin",
-      href: "https://www.linkedin.com/",
+      title: "Telegram",
+      href: "/",
    },
 ];
 
 export const footernavbarItems = [
    {
       id: 1,
-      title: "Home",
+      title: "Главная",
       href: "/",
    },
    {
       id: 2,
-      title: "Services",
+      title: "Вакансии",
       href: "services",
    },
    {
       id: 3,
-      title: "Our work",
+      title: "Проекты",
       href: "presentation",
    },
    {
       id: 4,
-      title: "About us",
+      title: "О нас",
       href: "ochi-team",
    },
    {
       id: 5,
-      title: "Insights",
+      title: "Инсайды",
       href: "insights",
    },
    {
       id: 6,
-      title: "Contact us",
+      title: "Обратная связь",
       href: "contact",
    },
 ];
@@ -338,82 +328,87 @@ export const clientsItem = [
 export const projectItem = [
    {
       id: 1,
-      title: "fyde",
+      title: "Рюмочная",
       href: "/case/",
       src: project1,
       links: [
          {
             id: 1,
-            title: "audit",
+            title: "Настойки",
             href: "/services",
          },
          {
             id: 2,
-            title: "copywriting",
+            title: "Закуски",
             href: "/services",
          },
          {
             id: 3,
-            title: "sales deck",
-            href: "/services",
-         },
-         {
-            id: 4,
-            title: "slides design",
+            title: "Б/С напитки",
             href: "/services",
          },
       ]
    },
    {
       id: 2,
-      title: "vise",
+      title: "Чебуречная",
       href: "/case/",
       src: project2,
       links: [
          {
             id: 1,
-            title: "agency",
+            title: "Чебуреки",
             href: "/services",
          },
          {
             id: 2,
-            title: "compony presentation",
+            title: "Настойки",
+            href: "/services",
+         },
+         {
+            id: 3,
+            title: "Б/С напитки",
             href: "/services",
          },
       ]
    },
    {
       id: 3,
-      title: "trawa",
+      title: "Пышечная",
       href: "/case/",
       src: project3,
       links: [
          {
             id: 1,
-            title: "brand identity",
+            title: "Пышки",
             href: "/services",
          },
          {
             id: 2,
-            title: "design research",
+            title: "Б/С напитки",
             href: "/services",
          },
          {
             id: 3,
-            title: "investor deck",
+            title: "Блинчики",
             href: "/services",
          },
       ]
    },
    {
       id: 4,
-      title: "premiumblend",
+      title: "Сосисочная",
       href: "/case/",
       src: project4,
       links: [
          {
             id: 1,
-            title: "brand template",
+            title: "Настойки",
+            href: "/services",
+         },
+         {
+            id: 2,
+            title: "Хот-доги",
             href: "/services",
          },
       ]

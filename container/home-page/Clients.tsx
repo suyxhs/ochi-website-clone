@@ -7,17 +7,19 @@ import { Button, Ratings } from "@/components";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Clients() {
-	const [activeAccordion, setActiveAccordion] = useState(clientsItem[0].id);
-	const toggleAccordion = (itemId: any) => {
-		setActiveAccordion((prev) => (prev === itemId ? null : itemId));
-	};
+  const [activeAccordion, setActiveAccordion] = useState(clientsItem[0].id);
+  const toggleAccordion = (itemId: any) => {
+    setActiveAccordion((prev) => (prev === itemId ? null : itemId));
+  };
 
-	return (
-		<section className="w-full padding-y">
-			<h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
-				Clients’ reviews
-			</h1>
-			{clientsItem.map((item) => (
+  return (
+    <section className="w-full padding-y">
+      <h1 className="sub-heading padding-x font-medium font-NeueMontreal text-secondry pb-[50px]">
+        Отзывы
+      </h1>
+      <script src="https://res.smartwidgets.ru/app.js" defer></script>
+      <div className="sw-app" data-app="dd865e61773d49b3c1aa732fcd8f20ca"></div>
+      {/* {clientsItem.map((item) => (
 				<div
 					key={item.id}
 					className={`w-full flex py-[10px] flex-col ${
@@ -120,10 +122,10 @@ export default function Clients() {
 						<div className="w-[10%] sm:w-auto xm:w-auto" />
 					</div>
 				</div>
-			))}
-			<div className="padding-x pt-[80px]">
-				<Ratings />
-			</div>
-		</section>
-	);
+			))} */}
+      <div className="padding-x pt-[80px]">
+        <Ratings />
+      </div>
+    </section>
+  );
 }

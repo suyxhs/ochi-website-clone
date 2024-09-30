@@ -4,10 +4,10 @@ export { default as mobileLogo } from './mobile-logo.png';
 export { default as awwwards } from './awwwards.svg';
 export { default as aboutImg } from './aboutImg.webp';
 export { default as videoImg } from './videoImg.jpeg';
-export { default as project1 } from './project1.webp';
-export { default as project2 } from './project2.webp';
-export { default as project3 } from './project3.webp';
-export { default as project4 } from './project4.webp';
+export { default as project1 } from './project1.png';
+export { default as project2 } from './project2.png';
+export { default as project3 } from './project3.png';
+export { default as project4 } from './project4.png';
 export { default as project5 } from './project5.webp';
 export { default as project6 } from './project6.webp';
 export { default as project7 } from './project7.webp';
@@ -31,6 +31,10 @@ export { default as publication3 } from './publication3.png';
 export { default as ochiside } from './ochi-side.jpg';
 export { default as eyeplay } from './eyeplay.svg';
 export { default as contactHero } from './contacthhero.jpg';
+export { default as rkk } from './rkk.jpeg';
+export { default as logoRkk } from './logoRkk.png';
+export { default as whiteLogoRkk } from './whiteLogoRkk.png';
+
 
 // services page
 export { default as phase1 } from './phase1.png';

@@ -9,13 +9,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								Hi! My name is
+								Привет! Меня зовут
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Enter your name*"
+								placeholder="Ваше имя*"
 								className="paragraph w-full font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out sm:w-full xm:w-full"
 							/>
 						</div>
@@ -23,13 +23,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-[50%] sm:w-full xm:w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								and I work with
+								и я работаю в
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Compony name type here*"
+								placeholder="Название компании*"
 								className="paragraph w-full font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out sm:w-full xm:w-full"
 							/>
 						</div>
@@ -39,13 +39,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								I’m looking for a partner to help me with
+								Я ищу партнёра, который поможет мне с
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Your goal type here*"
+								placeholder="Укажите свою цель здесь*"
 								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 							/>
 						</div>
@@ -55,13 +55,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								With an idea of having that completed
+							Я хочу, чтобы это было закончено
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Date*"
+								placeholder="Дата*"
 								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 							/>
 						</div>
@@ -71,13 +71,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								I am hoping to stay around a budget range of
+							Я надеюсь остаться в бюджетном диапазоне
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Select*"
+								placeholder="Выбрать*"
 								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 							/>
 						</div>
@@ -87,19 +87,19 @@ export default function Form() {
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								You can reach me at
+							Связь со мной
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="name@example.com"
+								placeholder="rkk@mail.ru"
 								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 							/>
 						</div>
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								to start the conversation.
+							чтобы начать разговор.
 							</h2>
 						</div>
 					</div>
@@ -108,13 +108,13 @@ export default function Form() {
 					<div className="flex gap-[10px] w-full sm:flex-col xm:flex-col">
 						<div className="xl:min-w-max lg:min-w-max md:min-w-max">
 							<h2 className="sub-heading font-NeueMontreal font-normal text-secondry">
-								Optionally, i’m sharing more:
+							Подробнее:
 							</h2>
 						</div>
 						<div className="w-full">
 							<input
 								type="text"
-								placeholder="Product details type here..."
+								placeholder="Подробная информация..."
 								className="paragraph font-NeueMontreal font-normal text-secondry bg-background border-b border-[#21212155] focus:border-secondry text-center sm:text-left xm:text-left outline-none focus:placeholder:opacity-0 mt-[20px] transform transition duration-200 ease-in-out w-full sm:w-full xm:w-full"
 							/>
 						</div>
@@ -130,7 +130,7 @@ export default function Form() {
 								className="w-[30px]"
 							/>
 							<p className="paragraph text-secondry font-NeueMontreal font-normal">
-								I agree with the
+							Я согласен с этим
 							</p>
 						</div>
 						<Link
@@ -143,7 +143,7 @@ export default function Form() {
 						<RoundButton
 							bgcolor="#212121"
 							href="/"
-							title="send inquiry"
+							title="Отправить"
 							className="bg-white text-black"
 							style={{ color: "#fff" }}
 						/>

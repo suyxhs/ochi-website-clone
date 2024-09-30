@@ -16,6 +16,9 @@ const config: Config = {
         marquee: "#004d43",
         about: "#cdea68"
       },
+      backgroundImage: {
+        'hero-mobile': "url('/img/hero.mp4')",
+      }
     },
     fontFamily: {
       FoundersGrotesk: ["FoundersGrotesk", "sans-serif"],

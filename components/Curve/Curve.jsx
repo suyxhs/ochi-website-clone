@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import { text, curve, translate } from "@/motion";
 
 const routes = {
-	"/": "Home",
+	"/": "Главная",
 	"/services": "Services",
 	"/presentation": "Our Work",
 	"/ochi-team": "About Us",

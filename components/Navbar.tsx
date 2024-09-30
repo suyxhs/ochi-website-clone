@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { logo } from "@/public";
+import { logo, logoRkk } from "@/public";
 import { useState } from "react";
 import { navVariants } from "@/motion";
 import { TextHover } from "@/animation";
@@ -25,12 +25,12 @@ export default function Navbar() {
 		<>
 			<motion.nav
 				variants={navVariants}
-				className="w-full h-[8vh] padding-x fixed top-0 left-0 z-50 backdrop-blur-[7px] flex items-center justify-between sm:hidden xm:hidden md:hidden"
+				className="w-full h-[10vh] padding-x fixed top-0 left-0 z-50 backdrop-blur-[7px] flex items-center justify-between sm:hidden xm:hidden md:hidden"
 				animate={hidden ? "hidden" : "vissible"}>
 				<div className="w-[50%]">
 					<Link href={"/"}>
 						<Image
-							src={logo}
+							src={logoRkk}
 							alt="ochi logo"
 							width={70}
 							height={70}
